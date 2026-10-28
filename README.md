@@ -1,5 +1,5 @@
 # Minitask
 
-Membuat layout semantic tag HTML menggunakan `<table></table>` tag.
+Membuat layout semantic tag HTML menggunakan flex.
 
-![screenshot](ss.png)
+![screenshot](ss-apply-flex.png)
