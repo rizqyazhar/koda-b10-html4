@@ -4,27 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Semantic Tag HTML</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table border="1" align="center" width="100%" cellpadding="47">
-      <tbody align="center">
-        <tr>
-          <td colspan="2"><font color="green">&lt;header&gt;</font></td>
-        </tr>
-        <tr>
-          <td colspan="2"><font color="blue">&lt;nav&gt;</font></td>
-        </tr>
-        <tr>
-          <td><font color="purple">&lt;section&gt;</font></td>
-          <td rowspan="2"><font color="yellow">&lt;aside&gt;</font></td>
-        </tr>
-        <tr>
-          <td><font color="orange">&lt;article&gt;</font></td>
-        </tr>
-        <tr>
-          <td colspan="2"><font color="red">&lt;footer&gt;</font></td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="container">
+      <header>&lt;header&gt;</header>
+      <nav>&lt;nav&gt;</nav>
+      <main>
+        <div>
+          <section>&lt;section&gt;</section>
+          <article>&lt;article&gt;</article>
+        </div>
+        <aside>&lt;aside&gt;</aside>
+      </main>
+      <footer>&lt;footer&gt;</footer>
+    </div>
   </body>
 </html>
